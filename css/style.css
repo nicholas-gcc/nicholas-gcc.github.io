@@ -450,6 +450,8 @@ header {
     font-weight: var(--fw-bold);
     margin-bottom: 1em;
     display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .btn__portfolio:hover {
@@ -465,6 +467,15 @@ header {
 
 .portfolio__item:hover {
     transform: scale(1.05);
+}
+
+@media (min-width: 800px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        grid-template-rows: repeat(2, minmax(300px, 1fr));
+        padding-right: 2em;
+    }
 }
 
 
