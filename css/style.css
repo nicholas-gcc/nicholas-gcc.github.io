@@ -14,9 +14,6 @@
     --ff-secondary: 'Source Code Pro', monospace;
     --fw-reg: 300;
     --fw-bold: 900;
-    /* --clr-light: #fff;
---clr-dark: #303030;
---clr-accent: #16e0bd; */
     --clr-light: #fff1e1;
     --clr-dark: #1d3c45;
     --clr-accent: #fa8128;
@@ -264,6 +261,8 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    width: 540px;
+    height: auto;
 }
 
 .section__subtitle--intro {
