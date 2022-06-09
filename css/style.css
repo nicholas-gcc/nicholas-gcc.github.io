@@ -17,6 +17,7 @@
     --clr-light: #fff1e1;
     --clr-dark: #1d3c45;
     --clr-accent: #fa8128;
+    --clr-highlights: #4a6163;
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -389,6 +390,29 @@ header {
         position: relative;
         z-index: 2;
     }
+}
+
+/* Video */
+.video-highlight {
+    background-color: var(--clr-highlights);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section__title--highlight {
+    color: var(--clr-light);
+    position: relative;
+}
+
+.media-container {
+    margin-bottom: 4em;
+}
+
+.media {
+    /* max-width: 500px; */
+    margin: 0 auto;
 }
 
 
